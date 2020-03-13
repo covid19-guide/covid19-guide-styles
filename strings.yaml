@@ -1,0 +1,26 @@
+branding:
+  name: About Library 
+  org: n/a
+  orgDomain: covid19.ops.guide
+  prettyName: COVID-19 Ops Guide
+#  favicon: /assets/images/library.ico
+
+landing:
+  tagline: A Newsroom Guide to Working during Pandemic COVID-19
+  viewAll: View All
+  quickLink: <a href="/get-started">Get Started</a>
+
+footer:
+  helpText: For help contributing or to report a problem, consult <a href="https://github.com/nytimes/library">the Github Page</a>.
+  defaultEmail: test.user@nytimes.com
+
+search:
+  placeholder: Search guide
+  results:
+    none:
+      suggestion: To request a new page, submit <a href="https://github.com/nytimes/library">a PR on Github</a>.
+
+# errors
+error:
+  403:
+    message: "<p>For this documentation site, we've disabled the final step of the Move File workflow. Normally, this request would succeed and you'd be taken to the new url for your page.</p>"

@@ -1,18 +1,24 @@
 branding:
-  name: About Library 
+  name: COVID-19 Ops Guide
   org: n/a
   orgDomain: covid19.ops.guide
   prettyName: COVID-19 Ops Guide
 #  favicon: /assets/images/library.ico
 
 landing:
-  tagline: A Newsroom Guide to Working during Pandemic COVID-19
+  tagline: A Newsroom Guide to Working during Pandemic COVID-19 
   viewAll: View All
   quickLink: <a href="/get-started">Get Started</a>
+  modules:
+    - tag: team
+      label: Topics
+      style: button
+    - tag: featured
+      label: Featured Pages
+      style: docs
 
 footer:
-  helpText: For help contributing or to report a problem, consult <a href="https://github.com/nytimes/library">the Github Page</a>.
-  defaultEmail: test.user@nytimes.com
+  helpText: A project by Ted Han, Cordelia Yu, and friends. Built with <a href="https://github.com/nytimes/library/tree/master/custom">NYTimes Library</a>
 
 search:
   placeholder: Search guide

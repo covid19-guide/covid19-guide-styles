@@ -3,6 +3,8 @@ branding:
   org: n/a
   orgDomain: covid19.ops.guide
   prettyName: COVID-19 Ops Guide
+  icon: http://tinabeans.com/serve/covid19-guide/logo.svg
+  favicon: http://tinabeans.com/serve/covid19-guide/favicon.ico
 #  favicon: /assets/images/library.ico
 
 landing:

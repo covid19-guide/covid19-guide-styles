@@ -1,0 +1,48 @@
+// Fonts
+//------------------------------------------------------------------------------
+// Font imports
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:wght@500;600|Lato');
+
+$font-branding: 'Fira Sans Condensed', sans-serif;
+$font-headline: 'Lato', sans-serif;
+$font-sans: 'Lato', sans-serif;
+
+
+//------------------------------------------------------------------------------
+// Custom vars
+
+// Colors
+$red: #EC6161;
+$accent: $red;
+$text-color: #4E4E4E;
+
+// Typography
+$paragraph-font-size: 18px;
+$paragraph-font-size-big: 21px;
+
+//------------------------------------------------------------------------------
+// Default Light Theme (NYTimes Library vars)
+
+$masthead-background: $accent;
+$main-homepage-background: $white;
+$main-homepage-icon-color: $text-color;
+$main-homepage-icon-border: $text-color;
+$main-page-text-color: $text-color;
+$main-page-btn-color: $gray-45;
+$search-container-background: $white;
+$search-container-hover: $gray-90;
+
+$btn-homepage-background: $white;
+$btn-homepage-border: $text-color;
+$btn-default-background: $white;
+$btn-default-background-hover: $accent;
+$btn-default-border: $text-color;
+$btn-default-text-color: $text-color;
+$btn-default-text-hover: $text-color;
+$btn-user-initial: $gray-50;
+
+$elem-link-color: $gray-50;
+$elem-active-link-color: $gray-50;
+$elem-link-accent: $accent;
+
+$nav-text-color: $gray-40;

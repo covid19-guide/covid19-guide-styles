@@ -7,7 +7,12 @@ branding:
   favicon: http://tinabeans.com/serve/covid19-guide/favicon.ico
 
 landing:
-  tagline: The goal of this document is to help newsroom managers provide clear, useful guidance to their reporters and editors during a period in which we lack official institutional direction on how best to respond to the novel coronavirus pandemic.</p><p>None of this is medical advice — it is instead a framework to help you create an environment in which your teams can better cope with disruption and uncertainty.</p><p>Nor is this document meant to be exhaustive or overly prescriptive, though we think you’ll find it a useful template to adapt to the specific needs of your newsroom.</p><p>If you have questions, comments, feedback, or suggestions: Find us in the NewsNerd Slack or on Twitter.</p><p>Good luck and wash your hands!
+  tagline: |
+    The goal of this document is to help newsroom managers provide clear, useful guidance to their reporters and editors during a period in which we lack official institutional direction on how best to respond to the novel coronavirus pandemic.
+    None of this is medical advice — it is instead a framework to help you create an environment in which your teams can better cope with disruption and uncertainty.
+    Nor is this document meant to be exhaustive or overly prescriptive, though we think you’ll find it a useful template to adapt to the specific needs of your newsroom.
+    If you have questions, comments, feedback, or suggestions: Find us in the NewsNerd Slack or on Twitter.
+    Good luck and wash your hands!
   modules:
     - tag: team
       label: Topics

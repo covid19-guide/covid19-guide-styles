@@ -1,8 +1,8 @@
 branding:
   name: The Newsroom Guide to COVID-19
+  prettyName: The Newsroom Guide to COVID-19
   org: Ted Han and Friends
   orgDomain: covid19.ops.guide
-  prettyName: The Newsroom Guide to COVID-19
   icon: https://covid19-guide-assets.ops.guide/assets/logo.svg
   favicon: https://covid19-guide-assets.ops.guide/assets/favicon.ico
 
@@ -13,7 +13,7 @@ landing:
     <p>Nor is this document meant to be exhaustive or overly prescriptive, though we think you’ll find it a useful template to adapt to the specific needs of your newsroom.</p>
     <p>If you have questions, comments, feedback, or suggestions: Find us in the NewsNerd Slack or on Twitter.</p>
     <p>Good luck and wash your hands!</p>
-  quicklink: <a href="/about-the-project">More about this project</a>.
+  quickLink: <a href="/about-the-project">More about this project</a>.
   modules:
     - tag: team
       label: Topics

@@ -259,6 +259,7 @@ $footer-top-border: 2px solid $text-color;
 
 .g-upper-body .kicker {
   padding: 1rem;
+  padding-bottom: .7rem;
   background: $gray-90;
   margin-top: 1.5rem;
   border-radius: 5px;
@@ -267,10 +268,16 @@ $footer-top-border: 2px solid $text-color;
 .g-upper-body .attribution p {
   color: $text-color;
   font-size: 14px;
+  margin-bottom: .3rem;
 
   .author {
     font-weight: 600;
   }
+}
+
+.g-upper-body .tool {
+  white-space: nowrap;
+  margin-left: .5rem;
 }
 
 .g-body .g-main-content {
@@ -295,6 +302,7 @@ $footer-top-border: 2px solid $text-color;
   &:not(:last-child) {
     margin-bottom: 1rem;
   }
+}
 
 // tweaks for article section nav
 
@@ -356,4 +364,18 @@ $footer-top-border: 2px solid $text-color;
   }
 }
 
+// tighten vertical space at top on mobile
+
+@media screen and (max-width: 475px) {
+  .g-upper-body {
+    margin-top: 4.5rem;
+  }
+
+  .g-upper-body h1.headline {
+    margin-top: 2.5rem;
+  }
+
+  .g-body .g-main-content h1:first-of-type {
+    margin-top: 1.5rem;
+  }
 }

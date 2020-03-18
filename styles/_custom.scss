@@ -256,3 +256,9 @@ $footer-top-border: 2px solid $text-color;
 .g-body .g-left-panel .section-kicker,.g-body .g-left-panel .sibling-kicker {
   color: $text-color;
 }
+
+/* Sidebars */
+
+.section-kicker, .sibling-kicker {
+  text-transform: none;
+}

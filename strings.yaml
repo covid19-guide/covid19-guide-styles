@@ -1,6 +1,6 @@
 branding:
-  name: The Newsroom Guide to&nbsp;COVID-19
-  prettyName: The Newsroom Guide to&nbsp;COVID-19
+  name: The Newsroom Guide to COVID-19
+  prettyName: The Newsroom Guide to COVID-19
   org: Ted Han and Friends
   orgDomain: covid19.ops.guide
   icon: https://covid19-guide-assets.ops.guide/assets/logo.svg
@@ -27,7 +27,40 @@ folder:
     heading: "On this page"
 
 footer:
-  helpText: "Twitter: <a href=\"https://twitter.com/covid19opsguide\">@Covid19OpsGuide</a> |  Built with <a href=\"https://github.com/nytimes/library/tree/master/custom\">NYTimes Library</a>"
+  helpText: |
+    <div class="cat-container featured-cat-container style-docs">
+      <h3>Table of contents</h3>
+      <ul class="featured-cat-list">
+        
+        <li>
+          <i class="fa foldericon fa-file-o" aria-hidden="true"></i>
+          <a href="/about-the-project">About the project</a>
+        </li>
+    
+        <li>
+          <i class="fa foldericon fa-file-o" aria-hidden="true"></i>
+          <a href="/general-guidance">General guidance</a>
+        </li>
+    
+        <li>
+          <i class="fa foldericon fa-file-o" aria-hidden="true"></i>
+          <a href="/taking-care-of-ourselves">Taking care of ourselves</a>
+        </li>
+    
+        <li>
+          <i class="fa foldericon fa-file-o" aria-hidden="true"></i>
+          <a href="/taking-care-of-one-another">Taking care of one another</a>
+        </li>
+    
+        <li>
+          <i class="fa foldericon fa-file-o" aria-hidden="true"></i>
+          <a href="/recommendations-for-event-planners">Recommendations for event planners</a>
+        </li>
+        
+        <li><a class="button btn-homepage" href="/categories">View All</a></li>
+      </ul>
+    </div>
+    <p class="actual-footer">Twitter: <a href=\"https://twitter.com/covid19opsguide\">@Covid19OpsGuide</a> |  Built with <a href=\"https://github.com/nytimes/library/tree/master/custom\">NYTimes Library</a></p>
 
 search:
   placeholder: Search...

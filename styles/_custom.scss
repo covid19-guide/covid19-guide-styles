@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5 {
   background-size: 100%;
   margin-top: 9px;
   left: 16px;
+  background-repeat: no-repeat;
 }
 
 .masthead .container .branding .branding-heading .logo {
@@ -306,8 +307,7 @@ $footer-top-border: 2px solid $text-color;
 
 // tweaks for article section nav
 
-.g-body .g-left-panel .section-kicker,
-.g-body .g-left-panel .sibling-kicker {
+.g-body .g-left-panel .section-kicker,.g-body .g-left-panel .sibling-kicker {
   color: $text-color;
   text-transform: none;
 }

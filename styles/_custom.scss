@@ -284,11 +284,6 @@ $footer-top-border: 2px solid $text-color;
   }
 }
 
-.g-body .g-left-panel .section-kicker,.g-body .g-left-panel .sibling-kicker {
-  color: $text-color;
-  text-transform: none;
-}
-
 // article body typography tweaks
 
 .g-body .playlist-navigation ul li,
@@ -300,4 +295,65 @@ $footer-top-border: 2px solid $text-color;
   &:not(:last-child) {
     margin-bottom: 1rem;
   }
+
+// tweaks for article section nav
+
+.g-body .g-left-panel .section-kicker,
+.g-body .g-left-panel .sibling-kicker {
+  color: $text-color;
+  text-transform: none;
+}
+
+.g-body .g-left-panel ul.section li,
+.g-body .g-left-panel ul.sibling li {
+  text-indent: 0;
+  border-bottom: none;
+
+  &:not(:first-child) {
+    margin-left: 1rem;
+  }
+}
+
+.g-body .g-left-panel {
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.g-body .g-left-panel ul.section li a,
+.g-body .g-left-panel ul.section li strong,
+.g-body .g-left-panel ul.sibling li a,
+.g-body .g-left-panel ul.sibling li strong {
+  padding: 4px 0;
+}
+
+.g-body .g-left-panel ul.section li a,
+.g-body .g-left-panel ul.sibling li a {
+  text-decoration: underline;
+}
+
+// make article section nav show up on mobile
+
+@media screen and (max-width: 1024px) {
+  .g-body .g-left-panel {
+    display: block;
+    float: none;
+    top: 0;
+    width: 100%;
+    max-width: 600px;
+    margin: 1rem auto 0 auto;
+    border-top: 2px solid $gray-70;
+    border-bottom: 2px solid $gray-70;
+  }
+
+  .g-body .g-left-panel {
+    .section-kicker {
+      margin-top: 1rem;
+    }
+
+    .section {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
 }

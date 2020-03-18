@@ -8,7 +8,7 @@ router.use(async (req, res) => {
     email: 'demo.user@example.com',
     userId: '10',
     // prevents incorrect GA tracking
-    analyticsUserId: false
+    analyticsUserId: 'UA-161062577-1'
   }
   
   return 'next'

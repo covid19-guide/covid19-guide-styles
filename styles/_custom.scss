@@ -26,8 +26,12 @@
 .team-cat-container,
 #main-search-page .main-item .featured-cat .cat-container.style-docs ul a.button,
 .additional-menus
- {
+{
   display: none;
+}
+
+#edit-button {
+  font-size: 0;
 }
 
 // ***** //
@@ -316,10 +320,6 @@ $footer-top-border: 2px solid $text-color;
 .g-body .g-left-panel ul.sibling li {
   text-indent: 0;
   border-bottom: none;
-
-  &:not(:first-child) {
-    margin-left: 1rem;
-  }
 }
 
 .g-body .g-left-panel {
@@ -339,7 +339,7 @@ $footer-top-border: 2px solid $text-color;
   text-decoration: underline;
 }
 
-// make article section nav show up on mobile
+// make article section nav show up on smaller screens
 
 @media screen and (max-width: 1024px) {
   .g-body .g-left-panel {
@@ -361,6 +361,10 @@ $footer-top-border: 2px solid $text-color;
     .section {
       margin-bottom: 1rem;
     }
+  }
+
+  .g-body .g-left-panel.d-fixed {
+    position: static;
   }
 }
 

@@ -286,9 +286,10 @@ $footer-top-border: 2px solid $text-color;
 
 .g-body .g-left-panel .section-kicker,.g-body .g-left-panel .sibling-kicker {
   color: $text-color;
+  text-transform: none;
 }
 
-// typography tweaks
+// article body typography tweaks
 
 .g-body .playlist-navigation ul li,
 .g-body .playlist-navigation ol li,

@@ -3,8 +3,8 @@ branding:
   org: Ted Han and Friends
   orgDomain: covid19.ops.guide
   prettyName: The Newsroom Guide to COVID-19
-  icon: http://tinabeans.com/serve/covid19-guide/logo.svg
-  favicon: http://tinabeans.com/serve/covid19-guide/favicon.ico
+  icon: https://covid19-guide.github.io/covid-19-guide-for-journalists/assets/logo.svg
+  favicon: https://covid19-guide.github.io/covid-19-guide-for-journalists/assets/favicon.ico
 
 landing:
   tagline: |
@@ -22,10 +22,10 @@ landing:
       style: docs
 
 footer:
-  helpText: A project by Ted Han, Cordelia Yu, and friends. Built with <a href="https://github.com/nytimes/library/tree/master/custom">NYTimes Library</a>
+  helpText: "Twitter: <a href=\"https://twitter.com/covid19opsguide\">@Covid19OpsGuide</a> |  Built with <a href=\"https://github.com/nytimes/library/tree/master/custom\">NYTimes Library</a>"
 
 search:
   placeholder: Search...
   results:
     none:
-      suggestion: To request a new page, contact <a href="mailto:ted@knowtheory.org">Ted via email</a>.
+      suggestion: Can't find something you think should be in here? Join the <a href="https://newsnerdery.org/">News Nerdery Slack</a> and join us in the channel #covid-guide.

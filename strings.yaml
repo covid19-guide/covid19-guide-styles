@@ -3,8 +3,8 @@ branding:
   org: Ted Han and Friends
   orgDomain: covid19.ops.guide
   prettyName: The Newsroom Guide to COVID-19
-  icon: https://covid19-guide.github.io/covid-19-guide-for-journalists/assets/logo.svg
-  favicon: https://covid19-guide.github.io/covid-19-guide-for-journalists/assets/favicon.ico
+  icon: https://covid19-guide-assets.ops.guide/assets/logo.svg
+  favicon: https://covid19-guide-assets.ops.guide/assets/favicon.ico
 
 landing:
   tagline: |

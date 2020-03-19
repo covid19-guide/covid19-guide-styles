@@ -57,6 +57,18 @@ a {
   text-decoration: underline;
 }
 
+/* Overall layout */
+
+.g-body {
+  max-width: 1150px;
+}
+
+@media screen and (min-width: 1024px) {
+  .g-body {
+    padding: 0 2rem;
+  }
+}
+
 /* Header Bar */
 
 .masthead {

@@ -53,6 +53,10 @@ h1, h2, h3, h4, h5 {
   font-weight: normal;
 }
 
+a {
+  text-decoration: underline;
+}
+
 /* Header Bar */
 
 .masthead {
@@ -272,7 +276,7 @@ $footer-top-border: 2px solid $text-color;
 /* Article page */
 
 .g-upper-body {
-  margin-top: 6.5rem;
+  margin-top: 5.5rem;
   margin-bottom: 0;
 }
 
@@ -280,7 +284,7 @@ $footer-top-border: 2px solid $text-color;
   font-family: $font-branding;
   color: $text-color;
   font-weight: 600;
-  margin-top: 3.5rem;
+  margin-top: 2.5rem;
 }
 
 .g-upper-body .kicker {
@@ -315,6 +319,10 @@ $footer-top-border: 2px solid $text-color;
     border-bottom: 3px solid $accent;
     padding-bottom: .75rem;
   }
+}
+
+.g-upper-body .back-to-home-link {
+  margin-top: 1.5rem;
 }
 
 // article body typography tweaks

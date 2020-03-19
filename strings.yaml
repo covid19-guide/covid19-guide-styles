@@ -13,7 +13,7 @@ landing:
     <p>Nor is this document meant to be exhaustive or overly prescriptive, though we think you’ll find it a useful template to adapt to the specific needs of your newsroom.</p>
     <p>If you have questions, comments, feedback, or suggestions: Find us in the <a href="https://newsnerdery.org/">News Nerdery Slack</a> or <a href="https://twitter.com/covid19opsguide">on Twitter</a>.</p>
     <p>Good luck and wash your hands!</p>
-  quickLink: <a href="/about-the-project">More about this project</a>.
+  quickLink: false
   modules:
     - tag: team
       label: Topics

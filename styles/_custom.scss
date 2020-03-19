@@ -71,6 +71,19 @@ a {
 
 /* Header Bar */
 
+#homepage .masthead {
+  height: 16px;
+  position: absolute;
+
+  @media screen and (max-width: $tablet-width) {
+    height: 10px;
+  }
+}
+
+#homepage #main-search-page {
+  padding-top: 3rem;
+}
+
 .masthead {
   .breadcrumb-item {
     color: $white;
@@ -106,6 +119,10 @@ a {
 }
 
 /* Homepage Title */
+
+#main-search-page .main-item .branding {
+  margin-bottom: 2.5rem;
+}
 
 #main-search-page .main-item .branding .branding-heading {
   display: flex;
@@ -155,12 +172,12 @@ a {
   line-height: 1.47;
   margin-bottom: 3rem;
 
+  @media screen and (max-width: $tablet-width) {
+    font-size: $paragraph-font-size-mobile;
+  }
+
   p {
     text-align: left;
-
-    &:first-of-type {
-      font-size: $paragraph-font-size-big;
-    }
   }
 }
 

@@ -365,7 +365,8 @@ $footer-top-border: 2px solid $text-color;
 
 // article body typography tweaks
 
-$list-indent: 24px;
+$list-indent: 26px;
+$bullet-offset: 2px;
 
 .g-body .playlist-navigation ul,
 .g-body .playlist-navigation ol,
@@ -403,6 +404,15 @@ $list-indent: 24px;
       left: -$list-indent;
       white-space: nowrap;
     }   
+  }
+}
+
+.g-body .playlist-navigation ul,
+.g-body .g-main-content ul {
+  li {
+    &:before {
+      left: -$list-indent + $bullet-offset;
+    }
   }
 }
 

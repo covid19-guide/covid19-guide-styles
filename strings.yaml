@@ -73,7 +73,7 @@ footer:
         <li><a class="button btn-homepage" href="/categories">View All</a></li>
       </ul>
     </div>
-    <p class="actual-footer">Twitter: <a href=\"https://twitter.com/covid19opsguide\">@Covid19OpsGuide</a> |  Built with <a href=\"https://github.com/nytimes/library/tree/master/custom\">NYTimes Library</a></p>
+    <p class="actual-footer">Twitter: <a href="https://twitter.com/covid19opsguide\">@Covid19OpsGuide</a> |  Built with <a href=\"https://github.com/nytimes/library/tree/master/custom\">NYTimes Library</a></p>
 
 search:
   placeholder: Search...

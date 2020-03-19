@@ -33,7 +33,6 @@ head:
     <meta property="og:description" content="A resource to help newsrooms provide clear, useful guidance to reporters and editors while covering the coronavirus pandemic." />\n
     <meta property="og:image" content="https://covid19-guide-assets.ops.guide/assets/share-card.png" />\n
     <meta name="twitter:card" content="summary_large_image" />\n
-    <meta name="twitter:domain" value="https://covid19.ops.guide" />\n
     <meta name="twitter:title" value="${ data.title || 'The Newsroom Guide to COVID-19'}" />\n
     <meta name="twitter:description" value="A resource to help newsrooms provide clear, useful guidance to reporters and editors while covering the coronavirus pandemic." />\n
     <meta name="twitter:image" content="https://covid19-guide-assets.ops.guide/assets/share-card.png" />\n

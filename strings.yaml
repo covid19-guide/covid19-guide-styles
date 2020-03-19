@@ -26,6 +26,10 @@ folder:
   sectionList:
     heading: "On this page"
 
+head:
+  meta: |
+    <meta name="twitter:site" value="@covid19opsguide" />
+
 footer:
   helpText: |
     <div class="cat-container featured-cat-container style-docs">

@@ -47,11 +47,6 @@ footer:
         
         <li>
           <i class="fa foldericon fa-file-o" aria-hidden="true"></i>
-          <a href="/about-the-project">About the project</a>
-        </li>
-    
-        <li>
-          <i class="fa foldericon fa-file-o" aria-hidden="true"></i>
           <a href="/general-guidance">General guidance</a>
         </li>
     
@@ -69,7 +64,12 @@ footer:
           <i class="fa foldericon fa-file-o" aria-hidden="true"></i>
           <a href="/recommendations-for-event-planners">Recommendations for event planners</a>
         </li>
-        
+
+        <li>
+          <i class="fa foldericon fa-file-o" aria-hidden="true"></i>
+          <a href="/about-the-project">About the project</a>
+        </li>
+  
         <li><a class="button btn-homepage" href="/categories">View All</a></li>
       </ul>
     </div>

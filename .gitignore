@@ -12,3 +12,8 @@ coverage
 .eslintcache
 .npmrc*
 .vscode
+styles/parent-library-styles/
+styles/style.css
+styles/style.css.map
+styles/style.scss
+styles/.sass-cache/

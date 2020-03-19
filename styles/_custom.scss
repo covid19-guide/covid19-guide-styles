@@ -81,6 +81,7 @@ a {
   .container .branding .branding-label a:visited {
     color: $white;
     font-weight: 700;
+    text-decoration: none;
   }
 }
 
@@ -326,10 +327,35 @@ $footer-top-border: 2px solid $text-color;
   border: none;
 }
 
-.g-main-content {
+.g-body .g-main-content {
   h1 {
-    border-bottom: 3px solid $accent;
+    border-bottom: 2px solid $accent;
     padding-bottom: .75rem;
+    font-size: 30px;
+    line-height: 1.4;
+
+    @media screen and (max-width: $tablet-width) {
+      font-size: 25px;
+    }
+  }
+
+  h2 {
+    font-size: 26px;
+    line-height: 1.4;
+
+    @media screen and (max-width: $tablet-width) {
+      font-size: 21px;
+    }
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+
+    @media screen and (max-width: $tablet-width) {
+      font-size: 18px;
+    }
   }
 }
 

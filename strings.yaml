@@ -28,6 +28,18 @@ folder:
 
 head:
   meta: |
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://covid19.ops.guide" />
+    <meta property="og:title" content="The Newsroom Guide to COVID-19" />
+    <meta property="og:description" content="A resource to help newsrooms provide clear, useful guidance to reporters and editors while covering the novel coronavirus pandemic." />
+    <meta property="og:image" content="https://covid19-guide-assets.ops.guide/assets/share-card.png" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" value="https://covid19.ops.guide" />
+    <meta name="twitter:title" value="The Newsroom Guide to COVID-19" />
+    <meta name="twitter:description" value="A resource to help newsrooms provide clear, useful guidance to reporters and editors while covering the novel coronavirus pandemic." />
+    <meta name="twitter:image" content="https://covid19-guide-assets.ops.guide/assets/share-card.png" />
+    <meta name="twitter:image:alt" content="The logo for the Newsroom Guide to COVID-19 project, a book with a shield and a heart" />
+    <meta name="twitter:url" value="https://covid19.ops.guide" />
     <meta name="twitter:site" value="@covid19opsguide" />
 
 footer:

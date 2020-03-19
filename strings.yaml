@@ -27,9 +27,9 @@ folder:
     heading: "On this page"
 
 head:
-  meta: !!js/function (title) => `
+  meta: !!js/function (data) => `
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="${ title || 'The Newsroom Guide to COVID-19'}" />
+    <meta property="og:title" content="${ data.title || 'The Newsroom Guide to COVID-19'}" />
     <meta property="og:description" content="A resource to help newsrooms provide clear, useful guidance to reporters and editors while covering the coronavirus pandemic." />
     <meta property="og:image" content="https://covid19-guide-assets.ops.guide/assets/share-card.png" />
     <meta name="twitter:card" content="summary_large_image">
